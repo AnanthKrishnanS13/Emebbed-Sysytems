@@ -74,5 +74,6 @@ void loop() {
   url += namee;
   url += "HB";
   url += myBPM;
+  Serial.print(url);
   delay(1000);
 }
